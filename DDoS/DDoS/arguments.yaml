@@ -1,0 +1,14 @@
+# How to add in this
+# Format - as a dictionary, key:value
+# Add the next number, then name of the parameter, then value
+
+- protocol: UDP
+- dest: 192.169.0.109
+- src: 10.123.123.31
+- count: 10000
+- send count: 10000
+- send time: 4
+- send type: all at once
+- dport: 6567
+
+### To Add Documentation about each parameter
